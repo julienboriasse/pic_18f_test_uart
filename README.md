@@ -1,6 +1,6 @@
 # test_uart
 
-Ce programme permet de vérifier que votre carte PIC et la configuration de votre ordinateur permet une communication dans les deux directions.
+Ce programme vérifie que votre carte PIC 18F et la configuration de votre ordinateur permettent une communication dans les deux directions (RX/TX).
 
 # Installation
 
@@ -11,6 +11,13 @@ Ce programme permet de vérifier que votre carte PIC et la configuration de votr
 
 # Utilisation
 
-Une fois que le PIC est programmée et que terminal est ouvert et correctement configurer, appuyer sur le bouton "Reset" de la carte.
+Suivre les étapes suivantes :
+
+- Programmer le PIC
+- Ouvrir le terminal
+- Choisir le port COM
+- Configurer la liaison série en 9600 8-N-1
+- Appuyer sur le bouton "Reset" de la carte PIC
+
 
 ![Exemple d'utilisation de l'application](./assets/exemple.png)
